@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Interner Bereich nur für Lehrer"
+AuthUserfile "../.htpasswort"
+Require valid-user

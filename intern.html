@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-signin-client_id" content="427314837991-ggniallqhhu0oguqe24qbg80hob0b85o.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <title>Interner Inhalt</title>
+</head>
+<body>
+    <h1>Interner Bereich</h1>
+    <p>Dieser Bereich ist nur für Lehrer!!</p>
+
+    <a href="#" onclick="signOut();">Sign out</a>
+    <script>
+      function signOut() {
+       /* var auth2 = gapi.auth2.getAuthInstance();
+        auth2.signOut().then(function () {
+          console.log('User signed out.');
+          
+        });*/
+        window.location.href = "index.html";
+      }
+    </script>
+</body>
+</html>
